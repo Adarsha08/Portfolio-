@@ -24,7 +24,7 @@ const Contact = () => {
   
 
   return (
-    <div className=" text-white p-10 rounded-lg max-w-md mx-auto mt-10 shadow-lg">
+    <div className=" text-white p-10 rounded-lg max-w-md mx-auto mt-10 shadow-lg max-[380px]:mb-10">
       <div className="mb-5">
         <h1 className="text-2xl font-bold mb-3">Contact Me</h1>
         <p>Submit the form below to get in touch with me</p>
