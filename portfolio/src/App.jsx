@@ -16,7 +16,8 @@ function App() {
       <Navbar/>
       <div className="max-sm:h-full w-full max-sm:flex-grow overflow-auto  " >
       <Routes>
-          <Route index element={<Home />} />
+          <Route path="/" element={<Navigate to="/home" />}/>
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/experience" element={<Experience/>}/>
