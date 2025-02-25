@@ -13,32 +13,33 @@ const About = () => {
           
         </div>
         <h1 className="text-3xl font-bold ml-10 mt-10  text-white max-[500px]:text-2xl max-[425px]:mt-2 " >About me: </h1>
-        <div className="text-gray-400" >
-        <p className="ml-10 text-lg leading-relaxed max-[500px]:text-[15px]  ">
+        <div className="text-gray-400  " >
+        <p className="ml-10 mr-10 pb-20 text-lg leading-relaxed max-[500px]:text-[15px]">
   <span className="block mb-4">
-    Hi, I'm <span className="font-semibold">Adarsha Gautam</span>, currently studying at Samriddhi College, where I'm pursuing a Bachelor's degree in Computer Science and Information Technology (Bsc.Csit) with an expected graduation in 2026.
+    Hi, I'm <span className="font-semibold">Adarsha Gautam</span>, a Computer Science and Information Technology (BSc. CSIT) student at Samriddhi College, expected to graduate in 2026.
   </span>
   
   <span className="block mb-4">
-    I am a passionate Frontend Developer with a love for creating sleek, modern, and responsive websites. My mission is to craft visually appealing, user-centric web experiences.
+    I'm a passionate Frontend Developer dedicated to building sleek, modern, and responsive websites. My goal is to create visually appealing and user-friendly web experiences.
   </span>
 
   <span className="block mb-4">
-    I specialize in <span className="font-semibold">React, JavaScript, HTML, and CSS</span>, and I'm proficient in <span className="font-semibold">Tailwind CSS</span> for building responsive, mobile-friendly websites. I enjoy combining technical skills with creativity to design digital experiences that leave lasting impressions.
+    My expertise lies in <span className="font-semibold">React, JavaScript, HTML, and CSS</span>, with proficiency in <span className="font-semibold">Tailwind CSS</span> for crafting responsive, mobile-friendly designs. I enjoy merging creativity with technical skills to develop engaging digital experiences.
   </span>
 
   <span className="block mb-4">
-    My journey started with a curiosity for web design, which led me to explore front-end development. Over time, I honed my skills by working on personal projects, collaborating with peers, and continuously learning modern web technologies.
+    My journey into web development began with a fascination for design, which led me to explore frontend technologies. Over time, I have refined my skills through personal projects, collaborations, and continuous learning.
   </span>
 
   <span className="block mb-4">
-    I'm a lifelong learner who loves solving challenges and staying on top of industry trends. I thrive in collaborative environments, but I also enjoy deep-diving into code to build out new ideas.
+    As a lifelong learner, I thrive on solving challenges and staying up to date with industry trends. While I enjoy collaborating with teams, I also love diving deep into code to bring innovative ideas to life.
   </span>
 
   <span className="block mb-4">
-    I'm currently focused on deepening my knowledge of modern UI/UX design principles and exploring animation libraries to enhance web interactivity. My goal is to work on projects that push creative boundaries and bring fresh ideas to life.
+    Currently, I am focused on enhancing my knowledge of modern UI/UX design principles and exploring animation libraries to improve web interactivity. My aspiration is to work on projects that push creative boundaries and deliver impactful digital experiences.
   </span>
 </p>
+
 
 
 

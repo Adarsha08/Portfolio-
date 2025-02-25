@@ -3,6 +3,11 @@ import calculator from '../assets/calculator.webp'
 import newsapi from '../assets/newsapi.png'
 import stopwatch from '../assets/stopwatch.png'
 import amazonclone from '../assets/amazon clone.png'
+import country from '../assets/Country.jpg'
+import htmljs from '../assets/htmljs.png'
+import dictationary from '../assets/Dictionary.jpg'
+import jokes from '../assets/jokes.jpg'
+import sun from '../assets/sun.jpg'
 
 const Portfolio = () => {
  
@@ -34,19 +39,37 @@ const Portfolio = () => {
     },
     {
       id:5,
-      name:"Calculator",
-      src:"",
-      image:calculator
+      name:"Country info",
+      src:"https://github.com/Adarsha08/Country-info",
+      image:country
     },
     {
       id:6,
-      name:"Calculator",
-      src:"",
-      image:calculator
+      name:"More projects",
+      src:"https://github.com/Adarsha08/Html-Css-Js-Projects",
+      image:htmljs
+    },
+    {
+      id:7,
+      name:"Dictationary",
+      src:"https://github.com/Adarsha08/Dictationary-app",
+      image:dictationary
+    },
+    {
+      id:8,
+      name:"Random Jokes",
+      src:"https://github.com/Adarsha08/Random-joke-generator",
+      image:jokes
+    },
+    {
+      id:9,
+      name:"Solar system",
+      src:"https://github.com/Adarsha08/Solor-system",
+      image:sun
     },
   ]
   return (
-    <div className="text-white ml-10" >
+    <div className="text-white ml-10 mb-10 " >
       <div className="mt-10  " >
         <h1 className="text-3xl font-bold" >Portfolio</h1>
         <p className="text-[15px]" >Check out some of my works</p>
@@ -63,9 +86,11 @@ const Portfolio = () => {
           </a>
         </div>
         
+        
       ))}
       
       </div>
+      
     </div>
   )
 }
