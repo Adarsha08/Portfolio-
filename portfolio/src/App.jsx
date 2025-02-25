@@ -6,16 +6,17 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Experience from './Pages/Experience'
 import Portfolio from './Pages/Portfolio'
-import { Routes, Route, } from "react-router-dom";
+import {BrowserRouter, Routes, Route, } from "react-router-dom"
 
 function App() {
   return (
     <>
+    <BrowserRouter basename="/Portfolio-">
     <div className="flex h-screen flex-row  bg-gradient-to-b from-black to-gray-800 max-sm:bg-black " >
       <Navbar/>
       <div className="max-sm:h-full w-full max-sm:flex-grow overflow-auto  " >
       <Routes>
-      <Route index element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/experience" element={<Experience/>}/>
@@ -23,6 +24,7 @@ function App() {
        </Routes>
        </div>
     </div>
+    </BrowserRouter>
     </>
   )
 }
