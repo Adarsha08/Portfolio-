@@ -16,23 +16,37 @@ const Navbar = () => {
 
       <div className="flex flex-col items-center  justify-centre  max-sm:w-full " >
         <ul className="w-50 items-center flex flex-col justify-center max-sm:justify-evenly max-sm:w-full max-sm:flex-row " >
-          <NavLink to="/" className=" flex flex-row items-center rounded-xl p-2  mt-5 w-45 h-12 mb-2 max-md:ml-3  hover:bg-[#0f0f0f] max-sm:w-10 max-sm:ml-0 ">
+          <NavLink to="/"  className={({ isActive }) => 
+              `flex flex-row items-center rounded-xl p-2 mt-5 w-45 h-12 mb-2 max-md:ml-3 hover:bg-[#0f0f0f] max-sm:w-10 
+              ${isActive ? "bg-gray-800 text-blue-400" : ""}`}>
             <img className="h-8  mr-2 " src={home} />
             <p className="flex justify-center items-center  text-[16px] max-sm:hidden " >Home</p>
           </NavLink>
-          <NavLink to="/about" className=" flex flex-row items-center rounded-xl p-2  mt-5 w-45 h-12 mb-2  max-md:ml-3   hover:bg-[#0f0f0f]  max-sm:w-10   ">
+          <NavLink to="/about"  className={({ isActive }) => 
+              `flex flex-row items-center rounded-xl p-2 mt-5 w-45 h-12 mb-2 max-md:ml-3 hover:bg-[#0f0f0f] max-sm:w-10 
+              ${isActive ? "bg-gray-800 text-blue-400" : ""}`
+            }>
           <img className="h-8 mr-2" src={lay} />
             <p  className="flex justify-center items-center text-[16px] max-sm:hidden ">About</p>
           </NavLink>
-          <NavLink to="/experience"className=" flex flex-row items-center rounded-xl p-2  mt-5 w-45 h-12 mb-2  max-md:ml-3  hover:bg-[#0f0f0f] max-sm:w-10  ">
+          <NavLink to="/experience" className={({ isActive }) => 
+              `flex flex-row items-center rounded-xl p-2 mt-5 w-45 h-12 mb-2 max-md:ml-3 hover:bg-[#0f0f0f] max-sm:w-10 
+              ${isActive ? "bg-gray-800 text-blue-400" : ""}`
+            }>
           <img className="h-8 mr-2" src={experience} />
             <p className="flex justify-center items-center text-[16px] max-sm:hidden">Experience</p>
           </NavLink>
-          <NavLink to="/portfolio" className=" flex flex-row items-center rounded-xl p-2  mt-5 w-45 h-12 mb-2 max-md:ml-3   hover:bg-[#0f0f0f] max-sm:w-10   ">
+          <NavLink to="/portfolio"  className={({ isActive }) => 
+              `flex flex-row items-center rounded-xl p-2 mt-5 w-45 h-12 mb-2 max-md:ml-3 hover:bg-[#0f0f0f] max-sm:w-10 
+              ${isActive ? "bg-gray-800 text-blue-400" : ""}`
+            }>
           <img className="h-8 mr-2" src={portfolio} />
             <p className="flex justify-center items-center text-[16px] max-sm:hidden">Portfolio</p>
           </NavLink>
-          <NavLink to="/contact" className=" flex flex-row items-center rounded-xl p-2  mt-5 w-45 h-12 mb-2  max-md:ml-3  hover:bg-[#0f0f0f] max-sm:w-10   ">
+          <NavLink to="/contact" className={({ isActive }) => 
+              `flex flex-row items-center rounded-xl p-2 mt-5 w-45 h-12 mb-2 max-md:ml-3 hover:bg-[#0f0f0f] max-sm:w-10 
+              ${isActive ? "bg-gray-800 text-blue-400" : ""}`
+            }>
           <img className="h-8 mr-2" src={address} />
             <p className="flex justify-center items-center text-[16px] max-sm:hidden">Contact</p>
           </NavLink>

@@ -13,15 +13,13 @@ function App() {
     <>
     <div className="flex h-screen flex-row  bg-gradient-to-b from-black to-gray-800 max-sm:bg-black " >
       <Navbar/>
-      <div className="max-sm:h-full w-full max-sm:flex-grow overflow-scroll  " >
-      
+      <div className="max-sm:h-full w-full max-sm:flex-grow overflow-auto  " >
       <Routes>
-          <Route path="/" element={<Home/>}/>
+      <Route index element={<Home />} />
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/experience" element={<Experience/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
-          
        </Routes>
        </div>
     </div>
