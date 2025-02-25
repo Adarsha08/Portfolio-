@@ -77,8 +77,8 @@ const Portfolio = () => {
 
       <div className="mt-18 grid grid-cols-2 max-sm:mt-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 w-full " >
       {links.map(({id,name,src,image})=>(
-        <div className="flex flex-col items-center mb-10  mr-20  bg-gray-800 cursor-pointer  p-2 rounded-lg w-30" >
-        <a className="" key={id} href={src} target="_blank" rel="noopener noreferrer">
+        <div key={id}  className="flex flex-col items-center mb-10  mr-20  bg-gray-800 cursor-pointer  p-2 rounded-lg w-30" >
+        <a className=""  href={src} target="_blank" rel="noopener noreferrer">
         
         
           <img className="h-25 w-25" src={image} alt="hello" />
